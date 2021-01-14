@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="web.css">
+
+</head>
+	
+<body>
+<div class="header">
+<b>J A <br>Footwear</b>
+</div>
+
+
+ 
+
+
+
+<div class="h_bar">
+<div class="top">J.A. 
+Footwear</div>
+<span onclick="myfunction()">&#9776;</span>
+
+<ul id="show">
+
+<li><a class="hb" href="index.html"> Home</a></li>
+<li><a href="gents.html">Gents Collection</a></li>
+<li><a  href="ladies.html">Ladies Collection</a></li>
+<li><a  href="children.html">Kids Collection</a></li>
+<li><a  href="winter.html">Winter Collection</a></li>
+
+<select class="slt" name="more" id="more">
+<option value="more" >More..</option>
+<option value="school.html">School</option>
+<option value="slipper.html">Slippers</option>
+<option value="casual.html">Casual</option>
+</select>
+
+
+</ul>
+</div>
+	<div class="menu">
+<ul>
+
+
+
+<li><a href="#"> Contact</a>
+<ul>
+<li>Mobile: 9697757160</li>
+<li>Email: jmshdhssn7@gmail</li>
+</ul>
+</li>
+<li class="btn" type="button" onclick="exit()"> About</button>
+
+
+
+</li>
+</ul>
+</div>
+<div id="inner" background="img src=\images\z45.jpeg">
+
+
+<div id="cross" onclick="execute()">x</div>
+
+<p>J A footwear :A shop since 1970 located in sherwani colony khawajabagh
+baramulla where you can choose from a  wide range of colection such as ladies sandals, slippers ,school shoes,
+trekking shoes,winter collection etc.
+
+</p>
+</div>
+<div id="address" >
+<div id="cross" onclick="execute()">x</div>
+<p align="center">ADDRESS</p>
+<p align="center">
+Sherwani colony near masjid bilal khawajabagh bagh baramulla</p>
+</div>
+
+<footer>
+<hr>
+Email:
+
+<a href="mailto:jmshdhssn7@gmail.com">jmshdhssn7@gmail.com</a><br>
+&copy J A Footwear<br>
+Contact:9697757160
+</footer>
+
+
+
+</body>
+
+<script>
+      var urlMenu = document.getElementById('more');
+	  urlMenu.onchange = function()
+	  {
+		  var useroption=this.options[this.selectedIndex];
+		  if (useroption.value !="nothing")
+		  {
+			  window.open(useroption.value,"school casual slippers","");
+		  }
+	  }
+
+	function execute()
+{
+	//alert('ok');
+	
+	var inl=document.getElementById('inner');
+	var cr=document.getElementById('cross');
+	
+	
+	inl.style.display="none";
+	cr.style.display="none";
+	
+}
+function exit()
+{
+	//alert('ok');
+	
+	var inl=document.getElementById('inner');
+	var cr=document.getElementById('cross');
+	
+	inl.style.display="block";
+	cr.style.display="block";
+	
+	
+	
+}
+
+function myfunction()
+{
+	var x =document.getElementById("show");
+	if(x.style.display =="block"){
+		x.style.display="none";
+	}
+	else{
+		x.style.display="block";
+	}
+}
+
+</script>
+      
+
+
+<div class="main">
+
+<div class="img"><a href="images\1f4cc2e5-5d5b-4818-8f4c-4ca896acb023.jpeg">
+<img src="images\1f4cc2e5-5d5b-4818-8f4c-4ca896acb023.jpeg" alt="hello";>
+</a>
+
+</div>
+<div class="img">
+<a href="images\355.jpeg">
+<img src="images\355.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\568.jpeg">
+<img src="images\568.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\4667.jpeg">
+<img src="images\4667.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\46777.jpeg">
+<img src="images\46777.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\3dgj.jpeg">
+<img src="images\3dgj.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\Best-Designs-Of-Casual-Shoes-For-Men-Latest-Collection-2016.jpeg">
+<img src="images\Best-Designs-Of-Casual-Shoes-For-Men-Latest-Collection-2016.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\99780bcc-7acc-42ad-8009-3ff681a4d094.jpeg">
+<img src="images\99780bcc-7acc-42ad-8009-3ff681a4d094.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\dfhh.jpeg">
+<img src="images\dfhh.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\download.jpeg">
+<img src="images\download.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\eb64faf7-e585-4168-9536-736b344eb259.jpeg">
+<img src="images\eb64faf7-e585-4168-9536-736b344eb259.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\866.jpeg">
+<img src="images\866.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\images.jpeg">
+<img src="images\images.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\zzz.jpeg">
+<img src="images\zzz.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\3532.jpeg">
+<img src="images\3532.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\3556.jpeg">
+<img src="images\3556.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\jk.jpeg">
+<img src="images\jk.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\12321.jpeg">
+<img src="images\12321.jpeg" alt="hello";>
+</a>
+</div>
+<div class="img">
+<a href="images\gty.jpeg">
+<img src="images\gty.jpeg" alt="hello";>
+</a>
+</div>
+
+<div class="img">
+<a href="images\hvgo.jpeg">
+<img src="images\hvgo.jpeg" alt="hello";>
+</a>
+</div>
+</div>
+</body>
+
+
+
+</html>
